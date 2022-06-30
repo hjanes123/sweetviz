@@ -17,8 +17,8 @@ register_matplotlib_converters()
 plt.rcParams['svg.fonttype'] = 'path'
 # plt.rcParams['svg.fonttype'] = 'none'
 
-COLOR_TARGET_SOURCE = "#004bd1"
-COLOR_TARGET_COMPARE = "#e54600"
+COLOR_TARGET_SOURCE = "#933401"
+COLOR_TARGET_COMPARE = "#ffc83d"
 
 class Graph:
     def __init__(self):
