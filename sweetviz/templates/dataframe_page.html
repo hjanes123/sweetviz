@@ -91,7 +91,7 @@
             <span class="graph-legend" style="left: 391px;position: absolute;top: 5px;"></span>
             <!-- TARGET Summary -->
             {% if dataframe._target is not none: %}
-                <div class="pos-feature-summary" style="top: {{ dataframe._target.summary_pos }}px; background-color: #dedede;">
+                <div class="pos-feature-summary" style="top: {{ dataframe._target.summary_pos }}px;">
                     {{ dataframe._target.html_summary }}
                     <!-- This DETAIL WINDOW (VERTICAL ONLY) -->
                     {% if dataframe.page_layout == 'vertical': %}
@@ -101,7 +101,7 @@
             {% endif %}
             <!-- FEATURE Summaries -->
             {% for item in dataframe._features.values() %}
-                <div class="pos-feature-summary" style="top: {{ item.summary_pos }}px">
+                <div class="pos-feature-summary" style="top: {{ item.summary_pos }}px; background-color: #f7c8c4;">
                     {{ item.html_summary }}
                     <!-- This DETAIL WINDOW (VERTICAL ONLY) -->
                     {% if dataframe.page_layout == 'vertical': %}
