@@ -116,7 +116,7 @@ ytick.alignment      : center_baseline ## alignment of yticks
 ##############################################################################
 lines.linewidth   : 1.5     ## line width in points
 lines.linestyle   : -       ## solid line
-lines.color       : 933401      ## has no affect on plot(); see axes.prop_cycle
+lines.color       : C0      ## has no affect on plot(); see axes.prop_cycle
 lines.marker      : None    ## the default marker
 lines.markerfacecolor  : auto    ## the default markerfacecolor
 lines.markeredgecolor  : auto   ## the default markeredgecolor
