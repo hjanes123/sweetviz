@@ -162,7 +162,7 @@ def fmt_smart_range_tight(value: float, range: float) -> str:
 def fmt_div_color_override_missing(value: float) -> str:
     if value is None or np.isnan(value) or value <= 0:
         return ''
-    return 'style="color:#f7c8c4"'
+    return 'style="color:#202020"'
 
 def fmt_div_icon_missing(value: float) -> str:
     if value is None or np.isnan(value) or value <= 0:
