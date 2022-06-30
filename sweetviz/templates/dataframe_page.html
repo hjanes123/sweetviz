@@ -101,7 +101,7 @@
             {% endif %}
             <!-- FEATURE Summaries -->
             {% for item in dataframe._features.values() %}
-                <div class="pos-feature-summary" style="top: {{ item.summary_pos }}px; background-color: #f7c8c4;">
+                <div class="pos-feature-summary" style="top: {{ item.summary_pos }}px;">
                     {{ item.html_summary }}
                     <!-- This DETAIL WINDOW (VERTICAL ONLY) -->
                     {% if dataframe.page_layout == 'vertical': %}
