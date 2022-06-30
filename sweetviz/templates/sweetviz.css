@@ -80,12 +80,12 @@ body
     height:900px;position:absolute;top:0px;left:-17px
 }
 
-.color-source { color: #0088ed; }
-.button-border-source { border:1px solid #0088ed; }
-.color-source-target { color: #004bd1; }
-.color-compare { color: #f77721; }
-.button-border-compare { border:1px solid #f77721; }
-.color-compare-target { color: #e54600; }
+.color-source { color: #933401; }
+.button-border-source { border:1px solid #933401; }
+.color-source-target { color: #571f01; }
+.color-compare { color: #ffc83d; }
+.button-border-compare { border:1px solid #ffc83d; }
+.color-compare-target { color: #c28a00; }
 .color-normal { color: #58544f; }
 .color-target-summary { color: #CFC8BC; }
 .color-light { color: #837d76; }
