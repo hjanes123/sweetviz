@@ -116,7 +116,7 @@ ytick.alignment      : center_baseline ## alignment of yticks
 ##############################################################################
 lines.linewidth   : 1.5     ## line width in points
 lines.linestyle   : -       ## solid line
-lines.color       : C0      ## has no affect on plot(); see axes.prop_cycle
+lines.color       : mpl.rcParams['axes.prop_cycle'] = cycler(color=['933401','ffc83d','a43e50','e86153','ffa929','9013fe','4eb523','0060d7','b3dcf9','7d7d7d'])      ## has no affect on plot(); see axes.prop_cycle
 lines.marker      : None    ## the default marker
 lines.markerfacecolor  : auto    ## the default markerfacecolor
 lines.markeredgecolor  : auto    ## the default markeredgecolor
