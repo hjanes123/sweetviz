@@ -87,7 +87,7 @@ body
 .button-border-compare { border:1px solid #ffc83d; }
 .color-compare-target { color: #c28a00; }
 .color-normal { color: #58544f; }
-.color-target-summary { color: #000000; }
+.color-target-summary { color: #000000; background-color: #7d7d7d;}
 .color-light { color: #837d76; }
 .color-red { color: #ff0000; }
 .dim { opacity: 0.5; }
