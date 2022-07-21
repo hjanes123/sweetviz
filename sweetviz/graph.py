@@ -18,7 +18,7 @@ plt.rcParams['svg.fonttype'] = 'path'
 # plt.rcParams['svg.fonttype'] = 'none'
 
 COLOR_TARGET_SOURCE = "#fd6412"
-COLOR_TARGET_COMPARE = "#c28a00"
+COLOR_TARGET_COMPARE = "#ffc83d"
 
 class Graph:
     def __init__(self):
