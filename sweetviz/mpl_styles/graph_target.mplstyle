@@ -1,7 +1,7 @@
 
-axes.edgecolor      : 202020   ## axes edge color
-patch.edgecolor     : 202020   ## if forced, or patch is not filled
-grid.color          : 202020    ## grid color
-axes.labelcolor     : 202020
-xtick.color         : 202020  ## color of the tick labels
-ytick.color         : 202020  ## color of the tick labels
+axes.edgecolor      : 000000   ## axes edge color
+patch.edgecolor     : 000000   ## if forced, or patch is not filled
+grid.color          : 000000    ## grid color
+axes.labelcolor     : 000000
+xtick.color         : 000000  ## color of the tick labels
+ytick.color         : 000000  ## color of the tick labels
