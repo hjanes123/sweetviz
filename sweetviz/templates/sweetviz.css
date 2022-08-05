@@ -20,8 +20,8 @@ body
     overflow-x: hidden;
     background-color: #f7f7f7;
 */
-    background-color: #f3f3f0;
-    color: #58544f;
+    background-color: #f8f8f8;
+    color: #333333;
     margin-top: 0px;
 }
 
@@ -86,14 +86,14 @@ body
 .color-compare { color: #d04a02; }
 .button-border-compare { border:1px solid #d04a02; }
 .color-compare-target { color: #e45c2b; }
-.color-normal { color: #58544f; }
+.color-normal { color: #333333; }
 .color-target-summary { color: #221F1F;}
 .color-light { color: #837d76; }
 .color-red { color: #ff0000; }
 .dim { opacity: 0.5; }
 .color-title-disabled  { color: #e2e2e2; }
 
-a { color: #58544f; }
+a { color: #333333; }
 .text-dataframe-title { font-family: RobotoBoldCond; font-size: 24px; }
 .text-dataframe-title-small { font-family: RobotoBoldCond; font-size: 20px; }
 .text-large-bold { font-family: RobotoBoldCond; font-size: 15.4px; }
@@ -243,7 +243,7 @@ DETAILS
 /* NUM-DETAIL COLS */
 .pos-num-detail-row__label        { position: absolute; left: 0px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 62px;}
 
-hr { background-color: #58544f; height: 1px; border-width: 0px; }
+hr { background-color: #333333; height: 1px; border-width: 0px; }
 
 button
 {
