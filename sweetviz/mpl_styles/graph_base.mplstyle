@@ -4,7 +4,7 @@ figure.dpi          : 100
 
 figure.facecolor    : white
 axes.facecolor      : white   ## axes background color
-axes.edgecolor      : 58544f   ## axes edge color
+axes.edgecolor      : 333333   ## axes edge color
 axes.linewidth      : 0.8     ## edge linewidth
 
 font.family: Roboto
@@ -17,7 +17,7 @@ font.family: Roboto
 ##############################################################################
 patch.linewidth        : 1        ## edge width in points.
 patch.facecolor        : C0
-patch.edgecolor        : 58544f   ## if forced, or patch is not filled
+patch.edgecolor        : 333333   ## if forced, or patch is not filled
 patch.force_edgecolor  : False   ## True to always use edgecolor
 patch.antialiased      : True    ## render patches in antialiased (no jaggies)
 
@@ -32,7 +32,7 @@ axes.prop_cycle        : cycler('color', ['295477','D04A02','a43e50','e86153','f
 axes.grid           : False   ## display grid or not
 axes.grid.axis      : both    ## which axis the grid should apply to
 axes.grid.which     : major   ## gridlines at major, minor or both ticks
-grid.color       :   58544f    ## grid color
+grid.color       :   333333    ## grid color
 grid.linestyle   :   -         ## solid
 grid.linewidth   :   0.8       ## in points
 grid.alpha       :   1.0       ## transparency, between 0.0 and 1.0
@@ -48,7 +48,7 @@ axes.titlepad       : 6.0     ## pad between axes and title in points
 axes.labelsize      : medium  ## fontsize of the x any y labels
 axes.labelpad       : 4.0     ## space between label and axis
 axes.labelweight    : normal  ## weight of the x and y labels
-axes.labelcolor     : 58544f
+axes.labelcolor     : 333333
 
 # Layering, formatting
 axes.axisbelow      : line    ## draw axis gridlines and ticks below
@@ -81,7 +81,7 @@ xtick.minor.width    : 0.6    ## minor tick width in points
 xtick.minor.pad      : 3.4    ## distance to the minor tick label in points
 
 # Tick labels
-xtick.color          : 58544f  ## color of the tick labels
+xtick.color          : 333333  ## color of the tick labels
 xtick.labelsize      : 8.0 ## fontsize of the tick labels
 xtick.direction      : out    ## direction: in, out, or inout
 xtick.alignment      : center ## alignment of xticks
@@ -107,7 +107,7 @@ ytick.minor.right    : True   ## draw y axis right minor ticks
 ytick.minor.pad      : 3.4    ## distance to the minor tick label in points
 
 # Tick labels
-ytick.color          : 58544f  ## color of the tick labels
+ytick.color          : 333333  ## color of the tick labels
 ytick.labelsize      : 8.0 ## fontsize of the tick labels
 ytick.direction      : out    ## direction: in, out, or inout
 ytick.alignment      : center_baseline ## alignment of yticks
