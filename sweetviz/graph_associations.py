@@ -238,7 +238,7 @@ def heatmap(y, x, figure_size, **kwargs):
     for i in range(0,128):
         palette.append((0.2*(3.5/128)*i, 0.6+(0.4/128)*i ,  0.6+(0.4/128)*i))
     for i in range(128,256):
-        palette.append((0.8-0.4*(i-256)/256, 0.4-0.8*(i-256)/256, -1.2*(i-256)/256))
+        palette.append((1, 0.3-0.8*(i-256)/256, -1.2*(i-256)/256))
 
     if 'color_range' in kwargs:
         color_min, color_max = kwargs['color_range']
