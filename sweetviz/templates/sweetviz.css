@@ -80,9 +80,9 @@ body
     height:900px;position:absolute;top:0px;left:-17px
 }
 
-.color-source { color: #d04a02; }
-.button-border-source { border:1px solid #d04a02; }
-.color-source-target { color: #fb7c4d; }
+.color-source { color: #e0301e; }
+.button-border-source { border:1px solid #e0301e; }
+.color-source-target { color: #e96e61; }
 .color-compare { color: #299d8f; }
 .button-border-compare { border:1px solid #299d8f; }
 .color-compare-target { color: #69bab0; }
